@@ -164,9 +164,10 @@ transition: 2s;
 /* ESERCIZIO12 */
 
 .ex-12-button{
-  background-color: lightgreen;
+  
   position: relative;
-  transition: all 2s ease;
+  transition: all 2s linear;
+  
 }
 
 .ex-12-bottom-white{
@@ -186,7 +187,50 @@ transition: 2s;
   position: absolute;
   left: 130px;
  
+} 
+
+
+/* ESERCIZIO13 */
+
+.ex-13-button{
+  
+  position: relative;
+  transition: all 2s linear;
+  
 }
+
+.ex-13-bottom-white{
+  transition: all 2s;
+}
+.ex-13-top-white{
+  transition: all 2s;
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  
+  position: absolute;
+  right: 150px;
+  animation: button 2s linear;
+ 
+}
+
+@keyframes button{
+
+0%{top: 50px};
+25%{left: 150px};
+50%{bottom: 50px};
+75%{left: 150px};
+100%{}
+
+}
+
+
+
+.ex-13-button:hover .ex-13-top-white {
+  
+  position: absolute;
+  left: 150px;
+
+} 
 
 
 
