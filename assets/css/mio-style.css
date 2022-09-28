@@ -161,6 +161,37 @@ transition: 2s;
   100%{transform: rotate(0deg) ;}
 }
 
+/* ESERCIZIO12 */
+
+.ex-12-button{
+  background-color: lightgreen;
+  position: relative;
+  transition: all 2s ease;
+}
+
+.ex-12-bottom-white{
+  transition: all 2s;
+}
+.ex-12-top-white{
+  transition: all 2s;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  
+  position: absolute;
+  right: 130px;
+ 
+}
+.ex-12-button:hover .ex-12-top-white {
+  
+  position: absolute;
+  left: 130px;
+ 
+}
+
+
+
+
+
 
 
 
