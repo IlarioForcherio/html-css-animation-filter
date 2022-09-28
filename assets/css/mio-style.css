@@ -72,3 +72,22 @@ transition: width 3s;
   width: 40px;
   height: 40px;
 }
+
+/* ESERCIZIO6: 
+1-impostazione filtro greyscale in hover sull'immagine
+
+*/
+
+.ex-6-img:hover{
+filter: grayscale(100%);
+}
+/* ESERCIZIO7: 
+1-impostazione filtro greyscale in hover sull'immagine
+2-temporizzazione nella classe */
+
+.ex-7-img:hover{
+  filter: grayscale(100%);
+  }
+ .ex-7-img{
+  transition: 2s;
+ } 
