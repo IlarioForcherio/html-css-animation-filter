@@ -51,3 +51,24 @@ transition: width 3s;
 .ex-4-square{
   transition: background-color 2s;
 }
+
+/* ESERCIZIO5: 
+1-dimensioni 100px x 100px con hover (stesso background-color)
+2-temporizzazione hover nella classe
+3-cambio dimensioni a 40px x 40px in :active  */
+
+.ex-5-square:hover{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+}
+.ex-5-square{
+  transition: width 3s, height 3s; 
+
+}
+
+.ex-5-square:active{
+  width: 40px;
+  height: 40px;
+}
