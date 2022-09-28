@@ -13,17 +13,25 @@
 .ex-1-square{
   transition:  background-color 2s;
 }
+/* ESERCIZIO2:
+1- cambio dimensioni del quadrato in :active
+2- temporizzazione dell'active */
 
-
-
-
+.ex-2-square:active{
+width: 800px;
+height:100px;
+background-color: red;
+}
+.ex-2-square{
+transition: width 3s;
+}
 
 
 
 /* ESERCIZIO3:
 1- hover sul quadratino
 2- hover cambia border radius
-3-temporizzo
+3-temporizzo nela classe
 */
 
 .ex-3-square:hover{
@@ -31,4 +39,15 @@
 }
 .ex-3-square{
   transition: border-radius 2s;
+}
+
+/* ESERCIZIO4: 
+1-impostazione background color in hover
+2-temporrizzazione nella classe */
+
+.ex-4-square:hover{
+  background-color: white;
+}
+.ex-4-square{
+  transition: background-color 2s;
 }
