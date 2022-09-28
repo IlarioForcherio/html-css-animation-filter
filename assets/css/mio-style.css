@@ -114,9 +114,9 @@ transition: 1s;
  3-temporizzazione nella classe   */
 
  .ex-9-img:hover{
-  filter: grayscale(100%);
+  filter: contrast(1.3) brightness(1.);;
   border-radius: 20px;
-  transform: scale(0.5);
+  transform: scale(1.5);
   }
 
 .ex-9-img{
@@ -128,7 +128,7 @@ transition: 2s;
 
 .ex-10-icon{
   
-  animation: loop-360 2s infinite linear;
+  animation: loop-360 1s infinite linear;
 }
 @keyframes loop-360{
   
@@ -141,3 +141,35 @@ transition: 2s;
     transform: rotate(360deg);
   }
 }
+
+/* ESERCIZIO11 */
+
+
+
+.ex-11-icon:hover{
+  
+  animation: loop2 2s linear;
+  
+}
+
+@keyframes loop2{
+  
+  0%{transform: rotate(0deg);}
+  
+  99%{transform: rotate(270deg);}
+  
+  100%{transform: rotate(0deg) ;}
+}
+
+
+
+
+
+  
+ 
+  
+   
+  
+
+
+
