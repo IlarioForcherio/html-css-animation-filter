@@ -26,8 +26,6 @@ background-color: red;
 transition: width 3s;
 }
 
-
-
 /* ESERCIZIO3:
 1- hover sul quadratino
 2- hover cambia border radius
@@ -91,3 +89,36 @@ filter: grayscale(100%);
  .ex-7-img{
   transition: 2s;
  } 
+
+
+ /* ESERCIZIO8: 
+ 
+ 1-impostare filtro greyscale in hover sull'imagine
+ 2-impostare border radius in hover
+ 3-temporizzazione nella classe   */
+
+ .ex-8-img:hover{
+  filter: grayscale(100%);
+  border-radius: 20px;
+
+  }
+
+.ex-8-img{
+transition: 2s;
+}
+
+ /* ESERCIZIO9: 
+ 
+ 1-impostare filtro greyscale in hover sull'imagine
+ 2-impostare border radius in hover
+ 3-temporizzazione nella classe   */
+
+ .ex-9-img:hover{
+  filter: grayscale(100%);
+  border-radius: 20px;
+  transform: scale(0.5);
+  }
+
+.ex-9-img{
+transition: 2s;
+}
